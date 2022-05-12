@@ -38,6 +38,11 @@ class App extends React.Component{
       </div>
       <div className = "Carrinho">
         <h1>Carrinho</h1>
+        <Carrinho carrinho={this.state.carrinho} onClick={this.removerProduto}></Carrinho>
+          <Carrinho
+            carrinho={this.state.carrinho}
+            onClick={this.removerProduto}
+          ></Carrinho>
       </div>
     </id>
 
