@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 
 
-
-
 class App extends React.Component{
   render(){
 
@@ -22,24 +20,24 @@ class App extends React.Component{
         <div className = "BoxProdutos">
           <div className = "Produtos">
          
-              <p>nome do produto 1</p>
+              <p>Satélites Antigos</p>
             
-              <p>nome do produto 2</p>
+              <p>Roupas Espaciais</p>
             
-              <p>nome do produto 3</p>
+              <p>Camisetas Espaciais</p>
             
-              <p>nome do produto 4</p>
+              <p>Viagens Espaciais</p>
            
-              <p>nome do produto 5</p>
+              <p>Meteoritos</p>
           
-              <p>nome do produto 6</p>
+              <p>Brinquedos Espaciais</p>
            
-              <p>nome do produto 7</p>
+              <p>Naves Espaciais</p>
           </div>
         </div>
       </div>
       <div className = "Carrinho">
-        <h1>Aqui vai o carrinho</h1>
+        <h1>Carrinho</h1>
       </div>
     </id>
 
