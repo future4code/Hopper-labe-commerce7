@@ -1,11 +1,30 @@
 import React from 'react';
 import './App.css';
+import imagem from "./img/foguete.jpg"
 
 
 
 
 class App extends React.Component{
+
+  state = {
+    produtos: [
+      {valor:50, nome: "produto1"},
+      {valor:50, nome: "produto2"},
+      {valor:50, nome: "produto3"},
+      {valor:50, nome: "produto4"},
+      {valor:50, nome: "produto5"},
+      {valor:50, nome: "produto6"},
+      {valor:50, nome: "produto7"}
+    ]
+
+    
+  }
+  
+
   render(){
+
+    
 
     return(
     <id className = "App">
@@ -21,20 +40,84 @@ class App extends React.Component{
           </select>
         <div className = "BoxProdutos">
           <div className = "Produtos">
-         
-              <p>nome do produto 1</p>
-            
-              <p>nome do produto 2</p>
-            
-              <p>nome do produto 3</p>
-            
-              <p>nome do produto 4</p>
+      
+              <div className = "item1"> 
+                <img className='foto' src={imagem} alt = "foto"/>
+                <div className='propriedades'>
+                  <p>nome do produto1</p>
+                  <p>preço: R$ 50</p>
+                  <button className='botao'>
+                    adicionar ao carrinho
+                  </button>
+                </div>
+              </div>
+
+              <div className = "item2"> 
+              <img className='foto' src={imagem} alt = "foto"/>
+                <div className='propriedades'>
+                  <p>nome do produto2</p>
+                  <p>preço: R$ 50</p>
+                  <button className='botao'>
+                    adicionar ao carrinho
+                  </button>
+                </div>
+              </div>
+
+              <div className = "item3"> 
+              <img className='foto' src={imagem} alt = "foto"/>
+                <div className='propriedades'>
+                  <p>nome do produto3</p>
+                  <p>preço: R$ 50</p>
+                  <button className='botao'>
+                    adicionar ao carrinho
+                  </button>
+                </div>
+              </div>
+
+              <div className = "item4"> 
+              <img className='foto' src={imagem} alt = "foto"/>
+                <div className='propriedades'>
+                  <p>nome do produto4</p>
+                  <p>preço: R$ 50</p>
+                  <button className='botao'>
+                    adicionar ao carrinho
+                  </button>
+                </div>
+              </div>
+
+              <div className = "item5"> 
+              <img className='foto' src={imagem} alt = "foto" />
+                <div className='propriedades'>
+                  <p>nome do produto5</p>
+                  <p>preço: R$ 50</p>
+                  <button className='botao'>
+                    adicionar ao carrinho
+                  </button>
+                </div>
+              </div>
+
+              <div className = "item6"> 
+              <img className='foto' src={imagem} alt = "foto"/>
+                <div className='propriedades'>
+                  <p>nome do produto6</p>
+                  <p>preço: R$ 50</p>
+                  <button className='botao'>
+                    adicionar ao carrinho
+                  </button>
+                </div>
+              </div>
+
+              <div className = "item7"> 
+              <img className='foto' src={imagem} alt = "foto"/>
+                <div className='propriedades'>
+                  <p>nome do produto7</p>
+                  <p>preço: R$ 50</p>
+                  <button className='botao'>
+                    adicionar ao carrinho
+                  </button>
+                </div>
+              </div>
            
-              <p>nome do produto 5</p>
-          
-              <p>nome do produto 6</p>
-           
-              <p>nome do produto 7</p>
           </div>
         </div>
       </div>
